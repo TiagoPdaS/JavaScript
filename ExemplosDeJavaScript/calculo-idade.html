@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculando a idade</title>
+</head>
+<body>
+    <script>
+        var anoNascimento = prompt("informe seu ano de nascimento")
+
+
+        while(anoNascimento >= 2021){
+            alert('por favor insira o ano  do seu nascimento corretamente')
+            anoNascimento = prompt("por favor insira o ano do seu nascimento")
+        }
+
+        var anoAtual = prompt("e qual o ano atual?")
+        var idadeFinal = anoAtual - anoNascimento; 
+
+        alert('a idade final é:' +idadeFinal)
+
+    </script>
+</body>
+</html>
